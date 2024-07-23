@@ -29,11 +29,9 @@ function App({ signOut, user }) {
         <Flex direction="row" justifyContent="space-around" alignItems="center">
           <Flex>
               <Link>Home</Link>
-              <Link>About</Link>
-              <Link>Shop</Link>
           </Flex>
           <Heading level={4} textAlign="center">
-            Welcome to PetStore
+            Welcome to ChinoTech Sandbox
           </Heading>
           <Heading level={6} textAlign="center">
             Hello {user.username}
